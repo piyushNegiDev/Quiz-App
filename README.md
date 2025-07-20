@@ -1,23 +1,20 @@
-
 # 🧠 Science Quiz Game
 
 A fun and interactive **quiz web app** built using **HTML, CSS, and JavaScript**, powered by the [Open Trivia API](https://opentdb.com/). Choose your favorite science topic and test your knowledge with 10 randomized multiple-choice questions!
-
-![screenshot](./images/screenshot.png) <!-- Replace with your own screenshot -->
 
 ---
 
 ## 🚀 Live Demo
 
-[🔗 View the Live Project](https://your-github-username.github.io/quiz-app/)  
-*(Replace the URL above with your actual GitHub Pages link)*
+[🔗 View the Live Project](https://piyushnegidev.github.io/Quiz-App/)
+Click on the link
 
 ---
 
 ## 📂 Project Structure
 
 ```
-quiz-app/
+Quiz-App/
 │
 ├── index.html          → Main HTML file
 ├── style.css           → Styling and responsive layout
@@ -38,23 +35,11 @@ quiz-app/
 - 📱 Fully responsive design (mobile & desktop)
 - 🌐 Data fetched from [Open Trivia API](https://opentdb.com/)
 
----
-
-## 📸 Screenshots
-
-*(Optional — Add screenshot image in `/images/` folder and rename it to `screenshot.png`)*
-
-```md
-![screenshot](./images/screenshot.png)
-```
-
----
-
 ## 🛠️ How to Run Locally
 
 ```bash
-git clone https://github.com/your-username/quiz-app.git
-cd quiz-app
+git clone https://github.com/piyushNegiDev/Quiz-App.git
+cd Quiz-App
 # Then just open index.html in your browser
 ```
 
@@ -86,4 +71,4 @@ cd quiz-app
 
 ## 📜 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [MIT License](LICENSE.txt).
