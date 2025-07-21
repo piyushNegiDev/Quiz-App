@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+:root {
+  --backgroundColor: rgb(9, 14, 41);
+  --backgroundColor-light: rgb(42, 51, 99);
+  --color: white;
+  --color-light: rgba(255, 255, 255, 0.633);
+}
+body {
+  height: 100dvh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--backgroundColor);
+  color: var(--color);
+  padding: 1rem;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2em;
+  font-size: 1.8rem;
+  flex: 1 1 300px;
+  text-align: center;
+}
+.headings {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.headings p {
+  font-size: 4rem;
+}
+.heading2 {
+  font-weight: bold;
+  margin-top: 0.2em;
+}
+.selectTopicMsg {
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: var(--color-light);
+}
+.display {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2em;
+  flex: 1 1 300px;
+  align-items: center;
+}
+.boxDesign {
+  background-color: var(--backgroundColor-light);
+  color: var(--color);
+  width: 100%;
+  max-width: 400px;
+  min-height: 4em;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.boxDesign p {
+  font-size: 1.2rem;
+  margin-left: 1em;
+}
+.boxDesign img {
+  width: 24px;
+  height: 24px;
+}
+.submitBtn,
+.createdSubmitBtn {
+  background-color: var(--backgroundColor-light);
+  color: var(--color);
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 1em;
+  padding: 0.6em 1.5em;
+  margin-top: 1em;
+  cursor: pointer;
+}
+.submitBtn {
+  display: none;
+}
+.createdSubmitBtn {
+  visibility: visible;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 967px) {
+  .headings p {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    row-gap: 3em;
+  }
+
+  .heading {
+    font-size: 2rem;
+    flex: 0;
+  }
+
+  .headings p {
+    font-size: 1.5rem;
+  }
+
+  .boxDesign {
+    font-size: 1rem;
+    max-width: 90vw;
+  }
+
+  .submitBtn,
+  .createdSubmitBtn {
+    font-size: 1rem;
+    padding: 0.5em 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .headings p {
+    font-size: 1.5rem;
+  }
+
+  .heading2 {
+    font-size: 1.4rem;
+  }
+
+  .selectTopicMsg {
+    font-size: 0.9rem;
+  }
+
+  .boxDesign p {
+    font-size: 1rem;
+  }
+
+  .boxDesign img {
+    width: 20px;
+    height: 20px;
+  }
+}
