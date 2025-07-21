@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A science quiz web app with interactive questions from different science topics."
+    />
+    <meta name="author" content="Piyush Negi" />
+
+    <title>Quiz game</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <div id="question" class="headings">
+          <p>Welcome to the</p>
+          <p class="heading2">Science Quiz!</p>
+        </div>
+        <p class="selectTopicMsg">Pick a topic to get started.</p>
+      </div>
+
+      <div class="display">
+        <div id="a" class="boxDesign">
+          <button id="nature" class="boxDesign" aria-label="Science: Nature">
+            <img src="images/tree-solid.svg" alt="Tree Icon" />
+            <p>Science: Nature</p>
+          </button>
+        </div>
+
+        <div id="b" class="boxDesign">
+          <button
+            id="computer"
+            class="boxDesign"
+            aria-label="Science: Computer"
+          >
+            <img src="images/computer-solid.svg" alt="Computer Icon" />
+            <p>Science: Computer</p>
+          </button>
+        </div>
+
+        <div id="c" class="boxDesign">
+          <button id="maths" class="boxDesign" aria-label="Science: Maths">
+            <img src="images/calculator-solid.svg" alt="Calculator Icon" />
+            <p>Science: Maths</p>
+          </button>
+        </div>
+
+        <div id="d" class="boxDesign">
+          <button id="gadgets" class="boxDesign" aria-label="Science: Gadgets">
+            <img
+              src="images/mobile-screen-button-solid.svg"
+              alt="Mobile Icon"
+            />
+            <p>Science: Gadgets</p>
+          </button>
+        </div>
+
+        <button id="submit" type="submit" class="submitBtn">Submit</button>
+      </div>
+    </div>
+  </body>
+</html>
